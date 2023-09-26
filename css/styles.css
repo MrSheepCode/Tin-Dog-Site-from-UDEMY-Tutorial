@@ -1,0 +1,176 @@
+/* Fonts */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+body > h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* body (ignore) {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+} */
+
+/* navigation bar */
+.nav-item {
+  padding: 0 0 4.5rem;
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title text (tindog) */
+.cooldog {
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Download ICON (GOOGLE/APPLE Icons) */
+.downloadpls {
+  margin: 5% 3% 5% 0;
+}
+.apple-logo {
+  width: 30px;
+  border-radius: 15px;
+}
+
+.googleplay {
+  width: 30px;
+  border-radius: 15px;
+}
+
+/* Mobile PIC | Iphone 6 & #features are related */
+.iphone6 {
+  width: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+  top: -175px;
+  z-index: 1;
+}
+
+/* Below Page */
+
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Icons */
+.ico {
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+/* Icon Pointer */
+.ico:hover {
+  cursor: pointer;
+}
+
+/* Testimonial Section (ID) */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+/* Testimonial Text Settings (H2) */
+#testimonials > #testimonial-carousel > .carousel-inner > .carousel-item > h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Testimonial IMG */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section (ID) */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* Logos in Press */
+.companylogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousel Settings */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Card Settings (#pricing) */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+/* Space between cards */
+.pricing-column {
+  padding: 3% 2%;
+}
+/* CTA SECTION */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+#cta > .ctah3 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+    font-family: "Montserrat-Bold";
+  }
+
+  .iphone6 {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* Footer (Copyright) */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Footer Logo (Github, Facebook, Twitter, Instagram) */
+.fontcon{
+  margin: 20px 10px;
+}
